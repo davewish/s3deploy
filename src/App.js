@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a>Learn React deployed using Github Action.</a>
+        <a>Learn React deployed using Github Action latest updated</a>
       </header>
     </div>
   );
