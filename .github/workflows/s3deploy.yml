@@ -33,7 +33,8 @@ jobs:
         yarn install
         # Build an optimized production build
     - name: Production build      
-      run: |        
+      run: |
+       unset CI        
        yarn build
         # Deploy to the S3 server
     - name: Deploy to S3
